@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HOME"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="0dp"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               >
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingTop="10dp"
+                   android:paddingLeft="10dp"
+                    android:layout_gravity="top"
+                   android:paddingRight="10dp"
+
+
+                   >
+
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:src="@drawable/ic_img1"
+                       android:id="@+id/img1"
+
+                       />
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:src="@drawable/ic_img2"
+                       android:id="@+id/img2"
+                       android:layout_toRightOf="@+id/img1"
+                       android:layout_marginLeft="5dp"
+                       />
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:src="@drawable/ic_img3"
+                       android:layout_alignParentRight="true"
+                       android:id="@+id/img3"
+                       />
+               </RelativeLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:layout_gravity="center"
+               android:orientation="vertical"
+               >
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="THE"
+                       android:textColor="#52D017"
+                       android:textStyle="bold"
+                       android:fontFamily="sans-serif-black"
+                       android:textSize="30dp"
+                       android:id="@+id/the"
+                       android:layout_centerHorizontal="true"
+                       />
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="ENTREPRENEURSSHIP"
+                       android:textColor="#52D017"
+                       android:textStyle="bold"
+                       android:fontFamily="sans-serif-black"
+                       android:textSize="30dp"
+                       android:layout_centerHorizontal="true"
+                       />
+
+
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="CELL"
+                       android:textColor="#52D017"
+                       android:textStyle="bold"
+                       android:fontFamily="sans-serif-black"
+                       android:textSize="30dp"
+                       android:layout_centerHorizontal="true"
+                       />
+
+
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="KIET GROUP OF INSTITUTIONS"
+                       android:textColor="#ffff"
+                       android:textSize="15dp"
+                       android:layout_centerHorizontal="true"
+                       />
+
+
+               </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30dp"
+
+                   >
+                   <RelativeLayout
+                       android:layout_width="110dp"
+                       android:layout_height="120dp"
+                       android:background="@drawable/card_background"
+                       android:id="@+id/card1"
+                       android:layout_marginLeft="10dp"
+                       >
+                       <ImageView
+                           android:layout_width="100dp"
+                           android:layout_height="90dp"
+                           android:src="@drawable/ic_profile"
+                           android:layout_centerHorizontal="true"
+                           android:id="@+id/profile"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="E-Summit"
+                           android:layout_below="@+id/profile"
+                           android:layout_centerHorizontal="true"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-black"
+                           android:textColor="@color/black"
+                           android:paddingBottom="10dp"
+                           />
+                   </RelativeLayout>
+                   <RelativeLayout
+                       android:layout_width="110dp"
+                       android:layout_height="120dp"
+                       android:background="@drawable/card_background"
+                       android:layout_centerHorizontal="true"
+                       android:id="@+id/card2"
+                       >
+                       <ImageView
+                           android:layout_width="100dp"
+                           android:layout_height="90dp"
+                           android:src="@drawable/ic_profile"
+                           android:layout_centerHorizontal="true"
+                           android:id="@+id/profile1"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="E-Summit"
+                           android:layout_below="@+id/profile1"
+                           android:layout_centerHorizontal="true"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-black"
+                           android:textColor="@color/black"
+                           android:paddingBottom="10dp"
+                           />
+                   </RelativeLayout>
+                   <RelativeLayout
+                       android:layout_width="110dp"
+                       android:layout_height="120dp"
+                       android:background="@drawable/card_background"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="10dp"
+
+                       >
+                       <ImageView
+                           android:layout_width="100dp"
+                           android:layout_height="90dp"
+                           android:src="@drawable/ic_profile"
+                           android:layout_centerHorizontal="true"
+                           android:id="@+id/profile21"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="E-Summit"
+                           android:layout_below="@+id/profile21"
+                           android:layout_centerHorizontal="true"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-black"
+                           android:textColor="@color/black"
+                           android:paddingBottom="10dp"
+                           />
+                   </RelativeLayout>
+
+
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30dp"
+                   >
+                   <RelativeLayout
+                       android:layout_width="110dp"
+                       android:layout_height="120dp"
+                       android:background="@drawable/card_background"
+                       android:id="@+id/card3"
+                       android:layout_marginLeft="10dp"
+                       >
+                       <ImageView
+                           android:layout_width="100dp"
+                           android:layout_height="90dp"
+                           android:src="@drawable/ic_profile"
+                           android:layout_centerHorizontal="true"
+                           android:id="@+id/profile2"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="E-Summit"
+                           android:layout_below="@+id/profile2"
+                           android:layout_centerHorizontal="true"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-black"
+                           android:textColor="@color/black"
+                           android:paddingBottom="10dp"
+                           />
+                   </RelativeLayout>
+                   <RelativeLayout
+                       android:layout_width="110dp"
+                       android:layout_height="120dp"
+                       android:background="@drawable/card_background"
+                       android:layout_centerHorizontal="true"
+                       android:id="@+id/card4"
+                       >
+                       <ImageView
+                           android:layout_width="100dp"
+                           android:layout_height="90dp"
+                           android:src="@drawable/ic_profile"
+                           android:layout_centerHorizontal="true"
+                           android:id="@+id/profile3"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="E-Summit"
+                           android:layout_below="@+id/profile3"
+                           android:layout_centerHorizontal="true"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-black"
+                           android:textColor="@color/black"
+                           android:paddingBottom="10dp"
+                           />
+                   </RelativeLayout>
+                   <RelativeLayout
+                       android:layout_width="110dp"
+                       android:layout_height="120dp"
+                       android:background="@drawable/card_background"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="10dp"
+
+                       >
+                       <ImageView
+                           android:layout_width="100dp"
+                           android:layout_height="90dp"
+                           android:src="@drawable/ic_profile"
+                           android:layout_centerHorizontal="true"
+                           android:id="@+id/profile4"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="E-Summit"
+                           android:layout_below="@+id/profile4"
+                           android:layout_centerHorizontal="true"
+                           android:textStyle="bold"
+                           android:fontFamily="sans-serif-black"
+                           android:textColor="@color/black"
+                           android:paddingBottom="10dp"
+                           />
+                   </RelativeLayout>
+
+
+               </RelativeLayout>
+
+
+           </LinearLayout>
+       </RelativeLayout>
+
+
+</FrameLayout>
